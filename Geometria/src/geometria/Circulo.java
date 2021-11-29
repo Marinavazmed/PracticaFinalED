@@ -14,22 +14,34 @@ public class Circulo implements FiguraGeometrica
     private double radio;
     private double areaRadio;
     static final double pi = 3.1415;
-
+    
     public Circulo(double radio) 
     {
         this.radio = radio;
     }
 
+    /**
+     * Método consultor de la variable radio
+     * @return devuelve el valor de radio
+     * */
     public double getRadio() 
     {
         return radio;
     }
 
+    /**
+     * Método modificador de la variable radio
+     * @param double Requiere como primer parámetro un valor double
+     * */
     public void setRadio(double radio) 
     {
         this.radio = radio;
     }
 
+    /**
+     * Método consultor de la variable areaRadio
+     * @return double Devuelve el valor de areaRadio
+     * */
     public double getAreaRadio() 
     {
         return areaRadio;

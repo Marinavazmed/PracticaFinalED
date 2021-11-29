@@ -6,7 +6,8 @@
 package geometria;
 
 /**
- *
+ * @method Devuelve el área
+ *@version 1.0
  * @author javier
  */
 public interface FiguraGeometrica 
